@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Font Stuff">
+      <UniqueIdentifier>{a5a96622-850f-437e-9f49-2644ed29cae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph/Shape stuff">
+      <UniqueIdentifier>{dbfa3f91-ded1-4796-986c-6d2a0b20197f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\File Reading">
+      <UniqueIdentifier>{1c38c622-1553-4e40-b8f1-813ae200bfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Reading">
+      <UniqueIdentifier>{53cbf92c-9f24-4f6a-acde-823d94ce1ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Items">
+      <UniqueIdentifier>{62d8263f-0344-4e5f-ac2d-928591a0dd35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Font Items">
+      <UniqueIdentifier>{fdc316c8-47fa-44a8-adb4-ac9dbaa56c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Items\Bar Chart">
+      <UniqueIdentifier>{9c93d304-b5dc-4e30-a46d-5d15f24ae681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Items\Pie Chart">
+      <UniqueIdentifier>{5f197a04-cdf8-4d34-b34f-aa683bdda012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Items\Line Chart">
+      <UniqueIdentifier>{132d4413-3972-40ac-913e-c00a6b3e9e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph/Shape stuff\Bar Chart">
+      <UniqueIdentifier>{955debc6-3dda-4779-86ab-bfaf859138fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph/Shape stuff\Pie Chart">
+      <UniqueIdentifier>{e7ded597-dba5-4982-92f5-d85bf57ce27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph/Shape stuff\Line Chart">
+      <UniqueIdentifier>{155a4adb-1f0b-466a-8b36-9be963ff78c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph/Shape stuff\Scatter 2D">
+      <UniqueIdentifier>{797391ae-ca09-42cf-959e-76d8b64aa339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Items\Scatter 2D">
+      <UniqueIdentifier>{f356022e-55d5-45cd-aab0-8da57e4c63d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph/Shape stuff\Scatter 3D">
+      <UniqueIdentifier>{bc2fe3a9-fc3b-417f-9e12-6ae3b4243c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Items\Scatter3D">
+      <UniqueIdentifier>{594e5102-f94f-444c-8f30-872383029393}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="OGLWin32.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFont.h">
+      <Filter>Header Files\Font Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIText.h">
+      <Filter>Header Files\Font Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Graph/Shape stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ListHead.h">
+      <Filter>Header Files\File Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>Header Files\File Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files\File Reading</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphItems.h">
+      <Filter>Header Files\Graph/Shape stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Graph/Shape stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLBarChart.h">
+      <Filter>Header Files\Graph/Shape stuff\Bar Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLRectangle.h">
+      <Filter>Header Files\Graph/Shape stuff\Bar Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLPieChart.h">
+      <Filter>Header Files\Graph/Shape stuff\Pie Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLPieSegment.h">
+      <Filter>Header Files\Graph/Shape stuff\Pie Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLLineChart.h">
+      <Filter>Header Files\Graph/Shape stuff\Line Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLLinePoint.h">
+      <Filter>Header Files\Graph/Shape stuff\Line Chart</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLScatter2D.h">
+      <Filter>Header Files\Graph/Shape stuff\Scatter 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLScatter3D.h">
+      <Filter>Header Files\Graph/Shape stuff\Scatter 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Header Files\Graph/Shape stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLLinePoint3D.h">
+      <Filter>Header Files\Graph/Shape stuff\Scatter 3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OGLWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListHead.cpp">
+      <Filter>Source Files\File Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="ListNode.cpp">
+      <Filter>Source Files\File Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files\File Reading</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFont.cpp">
+      <Filter>Source Files\Font Items</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIText.cpp">
+      <Filter>Source Files\Font Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\Graph Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\Graph Items</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLBarChart.cpp">
+      <Filter>Source Files\Graph Items\Bar Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLRectangle.cpp">
+      <Filter>Source Files\Graph Items\Bar Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLPieChart.cpp">
+      <Filter>Source Files\Graph Items\Pie Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLPieSegment.cpp">
+      <Filter>Source Files\Graph Items\Pie Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLLineChart.cpp">
+      <Filter>Source Files\Graph Items\Line Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLLinePoint.cpp">
+      <Filter>Source Files\Graph Items\Line Chart</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLScatter2D.cpp">
+      <Filter>Source Files\Graph Items\Scatter 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Source Files\Graph Items</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLScatter3D.cpp">
+      <Filter>Source Files\Graph Items\Scatter3D</Filter>
+    </ClCompile>
+    <ClCompile Include="OGLLinePoint3D.cpp">
+      <Filter>Source Files\Graph Items\Scatter3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OGLWin32.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Code backup.txt" />
+  </ItemGroup>
+</Project>
